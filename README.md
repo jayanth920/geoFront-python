@@ -48,7 +48,10 @@ This Python script listens for a specific key press (default: 'e') and fetches t
 
 3. The notification will display the `country` and `state` of the latest location.
 
-## Example Output
+## Dependencies
 
-When you press `e`, the script will fetch the latest location and send a notification. For example:
+- `pync` for macOS notifications.
+- `requests` for fetching data from the backend URL.
+- `pynput` for listening to key presses.
+- `python-dotenv` for loading environment variables from the `.env` file.
 
