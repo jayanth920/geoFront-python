@@ -44,7 +44,7 @@ This Python script listens for a specific key press (default: 'e') and fetches t
     python location_notifier.py
     ```
 
-2. Press the `e` key while running the script to fetch the latest location and receive a notification.
+2. Press the `x` key while running the script to fetch the latest location and receive a notification.
 
 3. The notification will display the `country` and `state` of the latest location.
 

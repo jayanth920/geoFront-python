@@ -31,8 +31,8 @@ def send_notification(location):
 # Listener function for key press
 def on_press(key):
     try:
-        if key.char and key.char.lower() == 'e':  # Check if 'K' is pressed
-            print("Key 'e' pressed, fetching the latest location...")
+        if key.char and key.char.lower() == 'x':  # Check if 'K' is pressed
+            print("Key 'x' pressed, fetching the latest location...")
             locations = fetch_locations()
             if locations:
                 latest_location = locations[-1]  # Get the latest location
@@ -45,7 +45,7 @@ def on_press(key):
 
 # Main function to listen for 'K' key press
 def listen_for_key():
-    print("Press 'e' to get the latest location.")
+    print("Press 'x' to get the latest location.")
     listener = keyboard.Listener(on_press=on_press)
     try:
         listener.start()
